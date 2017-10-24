@@ -238,6 +238,67 @@ input[type=submit] {
   border-radius: 5px;
 }
 
+
+
+
+@media (max-width: 980px) {
+
+  body {
+    width: 100%;
+  }
+
+  .navBar {
+    clear: both;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-bottom: #cccccc solid 5px;
+  }
+  .navBarMain {
+    width: 700px;
+  }
+
+  .middleArea {
+    width: 700px;
+  }
+
+  .mainContent {
+    width: 375px;
+  }
+
+  .mainContent img {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .sideBar {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+
+  .middleArea {
+    width: 770px;
+  }
+
+  .mainContent {
+    background-color: white;
+    width: 770px;
+    margin-top: 30px;
+    display: block;
+  }
+
+  .navbar-links {
+    position: absolute;
+    width: 100%;
+  }
+}
+
 @media (max-width: 640px) {
   .navBar {
     position: relative;
@@ -263,7 +324,6 @@ input[type=submit] {
   }
 
   .navbar-links {
-    position: relative;
     display: block;
     margin-top: 75px;
     width: 100%;
@@ -279,10 +339,14 @@ input[type=submit] {
   }
 
   .middleArea {
+    clear: both;
+    position: relative;
     width: 100%;
   }
 
   .mainContent {
+    position: relative;
+    clear: both;
     background-color: white;
     width: 100%;
     margin-top: 50px;
@@ -293,31 +357,5 @@ input[type=submit] {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 100px;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .sideBar {
-    text-align: center;
-    width: 100%;
-    margin-top: 25px;
-    margin-bottom: 100px;
-  }
-
-  .middleArea {
-    width: 100%;
-  }
-
-  .mainContent {
-    background-color: white;
-    width: 100%;
-    margin-top: 30px;
-    display: block;
-  }
-
-  .navbar-links {
-    position: absolute;
-    width: 100%;
   }
 }
