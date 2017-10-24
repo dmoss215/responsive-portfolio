@@ -91,6 +91,12 @@ textarea {
   margin: 0 auto;
 }
 
+.navbar-links {
+  width: 400px;
+  height: 35px;
+  float: right;
+}
+
 .navBarRight {
   text-align: center;
   padding-top: 15px;
@@ -230,4 +236,88 @@ input[type=submit] {
   height: 50px;
   border: #6ebbb7 solid 2px;
   border-radius: 5px;
+}
+
+@media (max-width: 640px) {
+  .navBar {
+    position: relative;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-bottom: #cccccc solid 5px;
+  }
+
+  .navBarMain {
+    position: relative;
+    width: 100%;
+    }
+
+  .name{
+    text-align: center;
+    float: left;
+    width: 100%;
+    display: block;
+    height: 70px;
+    background-color: #4aaaa5;
+  }
+
+  .navbar-links {
+    position: relative;
+    display: block;
+    margin-top: 75px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+  }
+
+  .navBarRight {
+    float: left;
+    margin-left: 50px;
+    padding: 2px;
+    text-align: center;
+  }
+
+  .middleArea {
+    width: 100%;
+  }
+
+  .mainContent {
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+  }
+
+  .sideBar {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .sideBar {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+
+  .middleArea {
+    width: 100%;
+  }
+
+  .mainContent {
+    background-color: white;
+    width: 100%;
+    margin-top: 30px;
+    display: block;
+  }
+
+  .navbar-links {
+    position: absolute;
+    width: 100%;
+  }
 }
