@@ -268,7 +268,12 @@ input[type=submit] {
   }
 
   .mainContent img {
-    width: 300px;
+    float: none;
+    /*width: 300px;*/
+  }
+
+  img {
+    float: none;
   }
 }
 
@@ -291,6 +296,10 @@ input[type=submit] {
     width: 770px;
     margin-top: 30px;
     display: block;
+  }
+
+  .mainContent img {
+    float: left;
   }
 
   .navbar-links {
@@ -351,6 +360,10 @@ input[type=submit] {
     width: 100%;
     margin-top: 50px;
     display: block;
+  }
+
+  .mainContent img {
+    float: left;
   }
 
   .sideBar {
